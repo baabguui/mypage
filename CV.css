@@ -1,0 +1,75 @@
+@import url(https://font.elice.io/EliceDigitalBaeum.css);
+html {
+  font-family: "Elice Digital Baeum", NaumGothicRound, sans-serif;
+}
+
+.menu_container {
+  grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+
+  padding: 0 20px 0 20px;
+  border: solid 1px rgb(57, 168, 47);
+  background-color: rgba(49, 223, 93, 0.737);
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.menu_container #menu_item li {
+  text-align: center;
+  padding-left: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 1px black solid;
+  background-color: rgba(218, 160, 217, 0.407);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  list-style: none;
+  color: rgb(68, 66, 69);
+}
+
+.menu_container #menu_item li:hover {
+  background-color: rgba(175, 72, 153, 0.442);
+}
+
+.main_container {
+  background-color: rgba(177, 255, 206, 0.193);
+}
+
+.main_container {
+  padding: 20px 30px 20px 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main_container img {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  width: 40%;
+  height: 60%;
+}
+.main_container #main_item {
+  border-left: 4px dotted rgba(32, 135, 73, 0.597);
+  padding-left: 20px;
+}
+
+.main_container #main_item ol,
+ul {
+  padding-left: 20px;
+}
+
+.main_container #main_item a {
+  text-decoration: none;
+  color: black;
+}
+footer {
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  color: rgb(77, 25, 126);
+  background-color: rgba(199, 118, 198, 0.163);
+  font-size: x-small;
+}
