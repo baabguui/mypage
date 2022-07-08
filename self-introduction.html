@@ -4,41 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="self-introduction.css" />
+    <link rel="stylesheet" href="self-intro.css" />
     <title>Document</title>
   </head>
-  <body>
-    <header>
-      <div class="menu_container">
-        <ul id="menu_item">
-          <li style="cursor: pointer" onclick="location.href='home.html';">
-            Home
-          </li>
-        </ul>
-        <ul id="menu_item">
-          <li style="cursor: pointer" onclick="location.href='CV.html';">CV</li>
-        </ul>
-        <ul id="menu_item">
-          <li
+    <div class="article-container">
+      <header>
+        <div class="menu_container">
+          <p
+            id="menu_item"
+            style="cursor: pointer"
+            onclick="location.href='home.html';"
+          >
+            <img src="icon-home.png" alt="home" />
+          </p>
+          <p
+            id="menu_item"
+            style="cursor: pointer"
+            onclick="location.href='CV.html';"
+          >
+            <img src="icon-resume.png" alt="resume" />
+          </p>
+          <p
+            id="menu_item"
             style="cursor: pointer"
             onclick="location.href='self-introduction.html';"
           >
-            Self-introduction
-          </li>
-        </ul>
-        <ul id="menu_item">
-          <li>방명록</li>
-        </ul>
-        <ul id="menu_item">
-          <li>그냥</li>
-        </ul>
-    </header>
-    <div class="article-container">
-      <div id="article"><strong>관심 직무 또는 앞으로의 목표</strong></div>
-      <div id="article"><strong>관심 분야 또는 기술</strong></div>
-      <div id="article"><strong>AI트랙에서 가장 기대되는 점</strong></div>
-      <div id="article"><strong>동료 레이서에게 하고 싶은 말</strong></div>
-      <div id="article"><strong>나를 표현할 수 있는 정보</strong></div>
+            <img src="self-intro.png" alt="self-introduction" />
+          </p>
+          <p id="menu_item"></p>
+          <p id="menu_item"></p>
+        </div>
+      </header>
+      <div></div>
+      <p id="article">
+        <strong>1. 관심 직무/ 목표</strong><br /><br />
+        <br /><br />저는 이번 AI Track으로 코딩에 입문했어요.<br /><br />
+        <b>프론트엔드 개발자</b>를 목표로 하고 있지만 다른 직무도 열어두고
+        생각하고 있어요. <br /><br />재밌는 아이디어가 많은 개발자가 되고
+        싶습니다!
+      </p>
+      <p id="article">
+        <strong>2. 관심 분야/ 기술</strong><br /><br />
+        <br /><br /><br />
+        아직은 더 배워야 할 것 같아요.. <br /><br />
+        지금은 CSS로 효과 넣는게 너무 재밌네요!💫
+      </p>
+      <p id="article">
+        <strong>3. AI트랙에서 가장 <br />기대되는 점</strong
+        ><br /><br /><br /><br /><br />
+        <b>팀 프로젝트</b> !!
+      </p>
+      <p id="article">
+        <strong
+          >4. 동료 레이서에게<br />
+          하고 싶은 말</strong
+        ><br /><br /><br /><br />
+        6개월동안 재밌는 시간 보냈으면 좋겠습니다.<br /><br />
+        서로서로 많이 배워가요..!<br /><br />🌝
+      </p>
+      <p id="article">
+        <strong>5. 나를 표현할 수 있는 정보</strong><br /><br /><br /><br />
+        <b>비전공자 미대생</b>(디자인과x 디자인 못함 믿었다가 낭패볼 수 있음.)..
+        <br /><br /><b>아이스 아메리카노</b> 좋아해요.☕🧊 <br /><br />아 술도
+        좋아합니당🍺
+      </p>
+      <div id="party"><input type="button" value="night" onclick="
+        document.querySelector('body').style.color ='white';
+        document.querySelector('body').style.backgroundColor ='darkgray';
+        document.querySelector('body').style.borderColor= 'white';
+        "></div>
     </div>
+  
+    
   </body>
 </html>

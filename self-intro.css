@@ -1,0 +1,116 @@
+@import url(https://font.elice.io/EliceDigitalBaeum.css);
+html {
+  font-family: "Elice Digital Baeum", NaumGothicRound, sans-serif;
+}
+body {
+  display: grid;
+  grid-template-columns: 8em 80em 8em;
+  grid-template-rows: 3em 40em 3em;
+}
+.article-container {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 5em 3em 13em 13em 13em 13em 13em 7em;
+  background-color: rgba(109, 109, 109, 0.074);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.article-container .menu_container {
+  margin: 10px 10px 10px 10px;
+  width: 70px;
+  height: 610px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: rgba(0, 0, 0, 0.071);
+  border-right: 0px black solid;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 2px 4px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 1px;
+}
+
+.article-container .menu_container #menu_item {
+  margin-left: 15%;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  box-shadow: 3px 3px rgba(255, 255, 255, 0.507),
+    0 0 2px 1px rgba(0, 0, 0, 0.747);
+  animation: back 3s infinite alternate;
+}
+
+.article-container .menu_container #menu_item:hover {
+  animation: menu 1s infinite alternate;
+}
+@keyframes menu {
+  from {
+    background-color: rgba(255, 0, 0, 0.7);
+  }
+  20% {
+    background-color: rgb(255, 170, 0, 0.7);
+  }
+  40% {
+    background-color: rgb(255, 255, 0, 0.7);
+  }
+  60% {
+    background-color: rgb(43, 255, 0, 0.7);
+  }
+  80% {
+    background-color: rgb(0, 0, 255, 0.7);
+  }
+  to {
+    background-color: rgb(225, 0, 255, 0.7);
+  }
+}
+
+@keyframes back {
+  from {
+    background-color: rgba(242, 141, 255, 0.452);
+  }
+  to {
+    background-color: rgba(106, 250, 166, 0.305);
+  }
+}
+
+.article-container .menu_container #menu_item img {
+  margin-left: 20%;
+  margin-top: 15%;
+}
+
+.article-container #article {
+  margin-left: 20%;
+  margin-bottom: 10%;
+
+  padding: 20% 20px 20px 20px;
+
+  width: 150px;
+  height: 100px;
+  border: 3px solid rgba(186, 186, 186, 0.844);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgba(0, 0, 0, 0);
+  transition: all 0.5s;
+}
+
+.article-container #article strong {
+  color: black;
+}
+
+.article-container #article:hover {
+  padding: 20px 20px 20px 20px;
+  transform: translate(-75px);
+  z-index: 1;
+  color: black;
+  background-color: rgb(221, 250, 241);
+  border: 3px dashed rgb(175, 175, 175);
+  width: 300px;
+  height: 300px;
+}
+
+#party {
+  padding-top: 500%;
+}

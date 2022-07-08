@@ -2,6 +2,15 @@
 html {
   font-family: "Elice Digital Baeum", NaumGothicRound, sans-serif;
 }
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+body {
+  padding-top: 60px;
+}
 
 .menu_container {
   grid-gap: 20px;

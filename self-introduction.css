@@ -3,6 +3,16 @@ html {
   font-family: "Elice Digital Baeum", NaumGothicRound, sans-serif;
 }
 
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+body {
+  padding-top: 70px;
+}
+
 .menu_container {
   grid-gap: 20px;
   display: grid;
@@ -17,7 +27,7 @@ html {
     rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
-.menu_container #menu_item li {
+.menu_container #menu_item {
   text-align: center;
   padding-left: 0;
   padding-top: 8px;
@@ -31,7 +41,7 @@ html {
   color: rgb(68, 66, 69);
 }
 
-.menu_container #menu_item li:hover {
+.menu_container #menu_item:hover {
   background-color: rgba(175, 72, 153, 0.442);
 }
 
@@ -39,7 +49,7 @@ html {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 20px;
   padding: 20px 10px 20px 10px;
 }
 
@@ -48,6 +58,8 @@ html {
 
   width: 500px;
   height: 200px;
+  border-radius: 15px;
+  box-shadow: 5px 5px rgba(119, 194, 197, 0.596);
   padding: 10px 10px 10px 10px;
   border: 1px dotted blue;
   background-color: rgba(231, 231, 255, 0.244);
